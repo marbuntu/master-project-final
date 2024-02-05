@@ -1,0 +1,6 @@
+[submodule "contrib/satellite"]
+	path = contrib/satellite
+	url = https://github.com/sns3/sns3-satellite.git
+[submodule "contrib/mlxsat"]
+	path = contrib/mlxsat
+	url = https://github.com/marbuntu/mlxsat.git
