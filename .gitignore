@@ -34,7 +34,6 @@ TAGS
 .waf*
 
 build-dir/
-build/*
 build/
 /.cproject
 /.project
