@@ -14,6 +14,7 @@ Please check how to build ns-3 Projects and Prerequisites here:
 ```console
 git clone https://github.com/marbuntu/master-project-final.git
 cd master-project-final
+git submodules update --init --recursive
 ```
 
 **2) Configure**
@@ -40,6 +41,18 @@ Constellation Helper Test
 ./waf --run usr-constellation-test
 ```
 
+
+## Troubleshooting
+
+If there is a build error occuring while building sns3-satellite. It might be due to a spelling error in the related wscript!
+
+Open the folling File:
+
+> contrib/satellite/wscript
+
+and change **model/satellite-scpck-scheduler.cc** to 
+
+> **model/satellite-scpc-scheduler.cc**
 
 
 ## References
