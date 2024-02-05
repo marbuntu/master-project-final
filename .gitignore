@@ -34,12 +34,11 @@ TAGS
 .waf*
 
 build-dir/
+build/*
 build/
 /.cproject
 /.project
 
 **__pycache__
-
-**build
 
 output/*
